@@ -3,12 +3,22 @@
 [![View Portfolio](https://img.shields.io/badge/View%20Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://www.datascienceportfol.io/mohan_Srinivas)
 [![View EDA Insights](https://img.shields.io/badge/View%20Analysis-%23000000.svg?style=for-the-badge&logo=Python&logoColor=blue)](https://github.com/Mohan2703/Loan-Approval-Analysis/blob/main/Loan%20Approval%20Analysis.ipynb)
 
-## INTRODUCTION
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Dataset Features](#dataset-features)
+3. [Objective](#objective)
+4. [Methodology](#methodology)
+5. [Metric Calculations](#metric-calculations)
+6. [Key Findings](#key-findings)
+7. [Software/Hardware Requirements](#softwarehardware-requirements)
+8. [Conclusion](#conclusion)
+
+## Introduction
 This project analyzes loan application data to uncover patterns in approval decisions and identify the most significant factors influencing loan approvals. The dataset consists of 45,000+ entries with 14 columns, containing demographic, financial, credit, and loan-related information about applicants.
 
 - The goal is to predict whether a loan will be approved (1) or rejected (0), making this a binary classification problem. Insights from this analysis can help financial institutions improve decision-making, streamline approvals, and reduce default risks.
 
-## DATASET FEATURES:
+## Dataset Features
 **Demographic Information**
 - person_age: Age of the applicant
 - person_gender: Gender of the applicant
@@ -33,7 +43,7 @@ This project analyzes loan application data to uncover patterns in approval deci
 **Target Variable**
 - loan_status: Loan approval status (1 = Approved, 0 = Rejected)
 
-## OBJECTIVE
+## Objective
 - To identify the most common loan types and approval trends.
 - To analyze factors influencing loan approval decisions.
 - To examine loan default rates and risk factors.
@@ -41,7 +51,7 @@ This project analyzes loan application data to uncover patterns in approval deci
 - To determine the most important financial indicators for loan approval.
 - To analyze loan approval trends over time and predict future demand.
 
-## METHODOLOGY
+## Methodology
 1. **Data Collection:**
    - Data Source: Kaggle
 2. **Data Preprocessing:**
@@ -61,7 +71,7 @@ This project analyzes loan application data to uncover patterns in approval deci
     - Bar charts for loan approval by intent, education, and gender.
     - Trend analysis across approval rates, income groups, and credit scores.
 
-## Metric Calculations:
+## Metric Calculations
 - **Approval Rate Calculation:** Compute loan approval rates for different loan types, demographics, and locations.
 - **Risk Factor Analysis:** Identify high-risk applicant categories based on credit score, income, and debt ratios.
 - **Correlation Analysis:** Analyze how different factors (e.g., credit score, income, loan amount) interact with loan approval/rejection decisions.
@@ -69,7 +79,7 @@ This project analyzes loan application data to uncover patterns in approval deci
 - **Influence of External Factors:** Identify patterns linking economic factors (e.g., inflation, interest rates) to loan approval trends.
 - **Impact of Loan Terms:** Analyze how loan terms (interest rate, repayment period) influence approval decisions and defaults.
 
-## KEY FINDINGS
+## Key Findings
 - Loan approval rates are imbalanced, with a majority of applications approved.
 - Age and experience distributions are skewed, with younger applicants dominating.
 - Gender distribution is fairly balanced, with slightly more male applicants.
@@ -79,7 +89,7 @@ This project analyzes loan application data to uncover patterns in approval deci
 - Applicants with higher credit scores and longer credit histories have higher approval rates.
 - Previous defaults strongly reduce chances of approval.
 
-## SOFTWARE/HARDWARE REQUIREMENTS 
+## Software/Hardware Requirements
 - **Software:**
     - Operating System: Windows/Linux/MacOS.
     - Tools: Python 3.x (Google Colab, Jupyter Notebook, or Visual Studio Code).
@@ -89,7 +99,7 @@ This project analyzes loan application data to uncover patterns in approval deci
     - Processor: Intel i3 or above.
     - RAM: 4GB or above.
 
-## CONCLUSION
+## Conclusion
 This project highlights the importance of demographic, financial, and credit-related variables in loan approval decisions. By analyzing applicant profiles and loan histories, lenders can improve risk management, optimize approval processes, and reduce defaults.
 
 **The insights can help:**
